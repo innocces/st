@@ -4,7 +4,7 @@ import {
   green,
   red,
   yellow
-} from 'https://deno.land/std@0.152.0/fmt/colors.ts';
+} from 'https://deno.land/std@0.152.0/fmt/colors.ts'
 
 import {
   Application,
@@ -12,79 +12,79 @@ import {
   hasFlash,
   HttpError,
   Status
-} from 'https://deno.land/x/oak/mod.ts';
+} from 'https://deno.land/x/oak/mod.ts'
 
 const app = new Application(
   hasFlash() ? { serverConstructor: FlashServer } : undefined
-);
+)
 
 // Error handler middleware
 app.use(async (context, next) => {
   try {
-    await next();
+    await next()
   } catch (e) {
     if (e instanceof HttpError) {
       // deno-lint-ignore no-explicit-any
-      context.response.status = e.status as any;
+      context.response.status = e.status as any
       if (e.expose) {
         context.response.body = `<!DOCTYPE html>
             <html>
               <body>
                 <h1>${e.status} - ${e.message}</h1>
               </body>
-            </html>`;
+            </html>`
       } else {
         context.response.body = `<!DOCTYPE html>
             <html>
               <body>
                 <h1>${e.status} - ${Status[e.status]}</h1>
               </body>
-            </html>`;
+            </html>`
       }
     } else if (e instanceof Error) {
-      context.response.status = 500;
+      context.response.status = 500
       context.response.body = `<!DOCTYPE html>
             <html>
               <body>
                 <h1>500 - Internal Server Error</h1>
               </body>
-            </html>`;
-      console.log('Unhandled Error:', red(bold(e.message)));
-      console.log(e.stack);
+            </html>`
+      console.log('Unhandled Error:', red(bold(e.message)))
+      console.log(e.stack)
     }
   }
-});
+})
 
 // Logger
 app.use(async (context, next) => {
-  await next();
-  const rt = context.response.headers.get('X-Response-Time');
+  await next()
+  const rt = context.response.headers.get('X-Response-Time')
   console.log(
     `${green(context.request.method)} ${cyan(
       context.request.url.pathname
     )} - ${bold(String(rt))}`
-  );
-});
+  )
+})
 
 // Response Time
 app.use(async (context, next) => {
-  const start = Date.now();
-  await next();
-  const ms = Date.now() - start;
-  context.response.headers.set('X-Response-Time', `${ms}ms`);
-});
+  const start = Date.now()
+  await next()
+  const ms = Date.now() - start
+  context.response.headers.set('X-Response-Time', `${ms}ms`)
+})
 
 // Send static content
 app.use(async (context) => {
   await context.send({
     root: `${Deno.cwd()}/web`,
-    index: 'index.html'
-  });
-});
+    index: 'docs/index.html'
+  })
+})
 
 app.addEventListener('listen', ({ hostname, port, serverType }) => {
-  console.log(bold('Start listening on ') + yellow(`${hostname}:${port}`));
-  console.log(bold('  using HTTP server: ' + yellow(serverType)));
-});
+  console.log(bold('Start listening on ') + yellow(`${hostname}:${port}`))
+  console.log(bold('  using HTTP server: ' + yellow(serverType)))
+})
 
-await app.listen({ hostname: '127.0.0.1', port: 8000 });
+await app.listen({ hostname: '127.0.0.1', port: 8000 })
