@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://self-talk.deno.dev" target="_blank" rel="noopener noreferrer">
-    <img width="150" src="https://cdn.jsdelivr.net/gh/innocces/st/static/img/st.png" alt=" logo" />
+    <img width="150" src="https://cdn.jsdelivr.net/gh/innocces/st/static/st.png" alt=" logo" />
   </a>
 </p>
 <br />
