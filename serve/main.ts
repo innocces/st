@@ -78,7 +78,7 @@ app.use(async (context, next) => {
 app.use(async (context) => {
   await context.send({
     root: `${Deno.cwd()}/web`,
-    index: 'docs/index.html'
+    index: 'index.html'
   })
 })
 
