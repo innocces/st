@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[296],{6529:s=>{s.exports=JSON.parse('{"label":"news","permalink":"/st/tags/news","allTagsPath":"/st/tags","count":1}')}}]);
