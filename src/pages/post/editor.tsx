@@ -3,6 +3,8 @@ import { LexicalComposer } from '@lexical/react/LexicalComposer'
 import { RichTextPlugin } from '@lexical/react/LexicalRichTextPlugin'
 import { ContentEditable } from '@lexical/react/LexicalContentEditable'
 import { AutoFocusPlugin } from '@lexical/react/LexicalAutoFocusPlugin'
+import { OnChangePlugin } from '@lexical/react/LexicalOnChangePlugin'
+import LexicalErrorBoundary from '@lexical/react/LexicalErrorBoundary'
 import { HeadingNode, QuoteNode } from '@lexical/rich-text'
 import { TableCellNode, TableNode, TableRowNode } from '@lexical/table'
 import { ListItemNode, ListNode } from '@lexical/list'
@@ -47,7 +49,7 @@ function Placeholder() {
   return <div className="absolute">Play around with the Markdown plugin...</div>
 }
 
-function Editor() {
+function Editor({ onChange }) {
   return (
     <LexicalComposer initialConfig={editorConfig}>
       <div className="flex flex-col flex-1 w-full bg-white rounded shadow-md relative">
@@ -58,9 +60,10 @@ function Editor() {
               <ContentEditable className="flex-1 outline-none" />
             }
             placeholder={<Placeholder />}
-            ErrorBoundary={({ children }) => <>{children}</>}
+            ErrorBoundary={LexicalErrorBoundary}
           />
           <AutoFocusPlugin />
+          <OnChangePlugin onChange={onChange} />
           <ListPlugin />
           <LinkPlugin />
           <MarkdownShortcutPlugin transformers={TRANSFORMERS} />
