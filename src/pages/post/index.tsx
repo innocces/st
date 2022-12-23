@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import dayjs from 'dayjs'
 import { $convertToMarkdownString } from '@lexical/markdown'
-import { PLAYGROUND_TRANSFORMERS } from './plugins/MarkdownTransformers'
+import { PLAYGROUND_TRANSFORMERS } from './_plugins/MarkdownTransformers'
 import Layout from '@theme/Layout'
 import Editor from './editor'
 

@@ -15,9 +15,9 @@ import { ListPlugin } from '@lexical/react/LexicalListPlugin'
 import { MarkdownShortcutPlugin } from '@lexical/react/LexicalMarkdownShortcutPlugin'
 import { TRANSFORMERS } from '@lexical/markdown'
 
-import ToolbarPlugin from './plugins/ToolbarPlugin'
-import ActionsPlugin from './plugins/ActionsPlugin'
-import CodeHighlightPlugin from './plugins/CodeHighlightPlugin'
+import ToolbarPlugin from './_plugins/ToolbarPlugin'
+import ActionsPlugin from './_plugins/ActionsPlugin'
+import CodeHighlightPlugin from './_plugins/CodeHighlightPlugin'
 
 import theme from './theme'
 
