@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { LexicalComposer } from '@lexical/react/LexicalComposer'
 import { RichTextPlugin } from '@lexical/react/LexicalRichTextPlugin'
 import { ContentEditable } from '@lexical/react/LexicalContentEditable'
@@ -19,7 +19,7 @@ import ToolbarPlugin from './_plugins/ToolbarPlugin'
 import ActionsPlugin from './_plugins/ActionsPlugin'
 import CodeHighlightPlugin from './_plugins/CodeHighlightPlugin'
 
-import theme from './theme'
+import theme from './_theme'
 
 const editorConfig = {
   namespace: 'blog editor',

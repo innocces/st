@@ -3,11 +3,17 @@ import dayjs from 'dayjs'
 import { $convertToMarkdownString } from '@lexical/markdown'
 import { PLAYGROUND_TRANSFORMERS } from './_plugins/MarkdownTransformers'
 import Layout from '@theme/Layout'
-import Editor from './editor'
+import Editor from './_editor'
 
 import { encode } from 'js-base64'
 
-import { repository } from '../../../package.json'
+const repository = {
+  api: 'https://api.github.com',
+  type: 'github',
+  name: 'innocces/st',
+  branch: 'main',
+  url: 'https://github.com/innocces/st'
+}
 
 import clsx from 'clsx'
 
