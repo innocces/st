@@ -54,6 +54,20 @@ tags: [${tag}]
     const blogContent = `${formatter}
 
 ${markdown}
+
+## 常用网站推荐
+
+- [DEV](https://dev.to/)
+
+- [Medium](https://medium.com/?tag=javascript)
+
+- [Github](https://github.com/)
+
+- [Stackoverflow](https://stackoverflow.com/)
+
+- [V2](https://www.v2ex.com/)
+
+- [Producthunt](https://www.producthunt.com/discussions?category=developers)
     `
     const token = localStorage.getItem('gh-token')
     const { api, type, name } = repository as Repository
