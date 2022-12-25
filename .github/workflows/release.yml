@@ -1,0 +1,25 @@
+name: create release
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'blog/*.md'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ncipollo/release-action@v1.12.0
+        with:
+          artifacts: 'release.tar.gz,blog/*.md'
+          bodyFile: ${{ github.event.push.path }}
+          allowUpdates: true
+          name: ${{ github.event.push.body }}
+          tag: ${{ github.event.push.body }}
+          generateReleaseNotes: true
+          token: ${{ secrets.GITHUB_TOKEN }}
