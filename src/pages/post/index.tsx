@@ -49,7 +49,8 @@ slug: ${blogFileName}
 title: ${title}
 authors: [innocces]
 tags: [${tag}]
----`
+---
+> 整合来源包含 [咲奈的平行时空](https://t.me/SakinaSpace)、 各种前端论坛以及吹水群`
     const blogContent = `${formatter}
 
 ${markdown}
