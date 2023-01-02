@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[819],{4126:s=>{s.exports=JSON.parse('{"label":"Tailwind Pocket & V4","permalink":"/st/tags/tailwind-pocket-v-4","allTagsPath":"/st/tags","count":1}')}}]);

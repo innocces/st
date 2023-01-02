@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[7863],{845:s=>{s.exports=JSON.parse('{"label":"core.js","permalink":"/st/tags/core-js","allTagsPath":"/st/tags","count":1}')}}]);

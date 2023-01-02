@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[7243],{6074:s=>{s.exports=JSON.parse('{"label":"PyScript","permalink":"/st/tags/py-script","allTagsPath":"/st/tags","count":1}')}}]);

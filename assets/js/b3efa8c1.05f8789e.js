@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[7095],{8948:e=>{e.exports=JSON.parse('{"label":"Vue 2022-year-in-review","permalink":"/st/tags/vue-2022-year-in-review","allTagsPath":"/st/tags","count":1}')}}]);

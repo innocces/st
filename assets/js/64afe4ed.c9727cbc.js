@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[6597],{8122:s=>{s.exports=JSON.parse('{"label":"daisyUI","permalink":"/st/tags/daisy-ui","allTagsPath":"/st/tags","count":1}')}}]);

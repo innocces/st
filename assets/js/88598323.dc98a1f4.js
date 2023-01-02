@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[4982],{6110:s=>{s.exports=JSON.parse('{"label":"TamagUI","permalink":"/st/tags/tamag-ui","allTagsPath":"/st/tags","count":1}')}}]);

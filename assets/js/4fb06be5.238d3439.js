@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[3587],{3907:s=>{s.exports=JSON.parse('{"label":"UI-Buttons","permalink":"/st/tags/ui-buttons","allTagsPath":"/st/tags","count":1}')}}]);
