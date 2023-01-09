@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[8213],{9618:s=>{s.exports=JSON.parse('{"label":"ReactNative V0.71.0","permalink":"/st/tags/react-native-v-0-71-0","allTagsPath":"/st/tags","count":1}')}}]);

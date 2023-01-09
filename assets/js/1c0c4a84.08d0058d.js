@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[539],{3299:s=>{s.exports=JSON.parse('{"label":"Qwik blog","permalink":"/st/tags/qwik-blog","allTagsPath":"/st/tags","count":1}')}}]);

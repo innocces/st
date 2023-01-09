@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[3275],{2081:s=>{s.exports=JSON.parse('{"label":"JavaScript Rising Stars","permalink":"/st/tags/java-script-rising-stars","allTagsPath":"/st/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[4345],{6589:s=>{s.exports=JSON.parse('{"label":"proxy-memoize V2.0","permalink":"/st/tags/proxy-memoize-v-2-0","allTagsPath":"/st/tags","count":1}')}}]);
