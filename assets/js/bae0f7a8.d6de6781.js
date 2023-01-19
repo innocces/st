@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[1284],{3911:s=>{s.exports=JSON.parse('{"label":"Tailwind Rust RegExp","permalink":"/st/tags/tailwind-rust-reg-exp","allTagsPath":"/st/tags","count":1}')}}]);

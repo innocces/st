@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[8781],{2416:s=>{s.exports=JSON.parse('{"label":"use querySelectorAll() with wildcards","permalink":"/st/tags/use-query-selector-all-with-wildcards","allTagsPath":"/st/tags","count":1}')}}]);

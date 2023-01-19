@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[9488],{9927:s=>{s.exports=JSON.parse('{"label":"vite-plugin-legacy-qiankun","permalink":"/st/tags/vite-plugin-legacy-qiankun","allTagsPath":"/st/tags","count":1}')}}]);

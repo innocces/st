@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[2591],{5412:s=>{s.exports=JSON.parse('{"label":"CSS Fallbacks for WebP background images with @supports","permalink":"/st/tags/css-fallbacks-for-web-p-background-images-with-supports","allTagsPath":"/st/tags","count":1}')}}]);

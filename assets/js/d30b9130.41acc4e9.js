@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[7586],{2780:s=>{s.exports=JSON.parse('{"permalink":"/st/tags/css-fallbacks-for-web-p-background-images-with-supports","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[2289],{5528:s=>{s.exports=JSON.parse('{"label":"Painter","permalink":"/st/tags/painter","allTagsPath":"/st/tags","count":1}')}}]);
