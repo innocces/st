@@ -83,9 +83,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        appId: ' ',
-        apiKey: ' ',
-        indexName: ' ',
+        appId: 'B26Q7UOHG9',
+        apiKey: 'a88988283dabae5f71e7117822f6df2b',
+        indexName: 'self-talk',
         contextualSearch: true,
         searchPagePath: 'search'
       },
