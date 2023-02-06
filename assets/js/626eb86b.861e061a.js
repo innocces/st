@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[238],{8708:s=>{s.exports=JSON.parse('{"label":"Two ways to safely break a long word in HTML","permalink":"/st/tags/two-ways-to-safely-break-a-long-word-in-html","allTagsPath":"/st/tags","count":1}')}}]);

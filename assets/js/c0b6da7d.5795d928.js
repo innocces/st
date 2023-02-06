@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[4914],{7442:s=>{s.exports=JSON.parse('{"label":"Nuxt3 useAsyncData()","permalink":"/st/tags/nuxt-3-use-async-data","allTagsPath":"/st/tags","count":1}')}}]);

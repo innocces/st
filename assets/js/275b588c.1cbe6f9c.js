@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[3095],{2957:s=>{s.exports=JSON.parse('{"permalink":"/st/tags/two-ways-to-safely-break-a-long-word-in-html","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

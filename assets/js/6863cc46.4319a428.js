@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[6482],{7483:s=>{s.exports=JSON.parse('{"label":"TypeWind","permalink":"/st/tags/type-wind","allTagsPath":"/st/tags","count":1}')}}]);

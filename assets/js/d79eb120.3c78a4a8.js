@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[5459],{9059:e=>{e.exports=JSON.parse('{"label":"The Proxy API Is So Powerful That Every Web Developer Should Master It!","permalink":"/st/tags/the-proxy-api-is-so-powerful-that-every-web-developer-should-master-it","allTagsPath":"/st/tags","count":1}')}}]);

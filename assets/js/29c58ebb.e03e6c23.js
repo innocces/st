@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[4004],{5430:e=>{e.exports=JSON.parse('{"label":"Replace listeners array with a Map for better performance","permalink":"/st/tags/replace-listeners-array-with-a-map-for-better-performance","allTagsPath":"/st/tags","count":1}')}}]);

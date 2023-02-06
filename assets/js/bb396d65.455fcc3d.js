@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[4821],{5763:e=>{e.exports=JSON.parse('{"permalink":"/st/","page":1,"postsPerPage":4,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

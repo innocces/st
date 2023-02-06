@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[9387],{3252:e=>{e.exports=JSON.parse('{"label":"Vercel January Product Update","permalink":"/st/tags/vercel-january-product-update","allTagsPath":"/st/tags","count":1}')}}]);

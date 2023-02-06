@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_innocces_st=self.webpackChunk_innocces_st||[]).push([[4185],{5572:e=>{e.exports=JSON.parse('{"label":"Replace Create React App recommendation with Vite","permalink":"/st/tags/replace-create-react-app-recommendation-with-vite","allTagsPath":"/st/tags","count":1}')}}]);
